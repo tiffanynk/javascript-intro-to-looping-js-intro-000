@@ -7,6 +7,5 @@ function forLoop(array) {
     } else {
       newThing.push(`I am ${i} strange loops.`);
     }
-  // return i === 1 ? `I am 1 strange loop.` : `I am ${i} strange loops.`
 }
 }
