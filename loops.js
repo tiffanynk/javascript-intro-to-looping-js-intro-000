@@ -7,3 +7,11 @@ function forLoop(array) {
     }
   } return array;
 }
+
+let num = 5;
+
+function whileLoop(num) {
+  while (num > 0) {
+    console.log(--num)
+  }
+}
