@@ -12,6 +12,6 @@ let num = 5;
 
 function whileLoop(num) {
   while (num > 0) {
-    console.log(--num)
+    console.log(--num, 'done')
   }
 }
