@@ -8,11 +8,21 @@ function forLoop(array) {
   } return array;
 }
 
-let num = 5;
-
 function whileLoop(n) {
   let countdown = n;
   while (countdown > 0) {
     console.log(--countdown)
   } return "done";
+}
+
+
+function doWhileLoop(num) {
+  let i = 0;
+  function incrementVariable() {
+    i += 1;
+    return i;
+    }
+  do {
+    console.log('I run once regardless.')
+  } while (incrementVariable() < num);
 }
